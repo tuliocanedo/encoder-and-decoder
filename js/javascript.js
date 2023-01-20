@@ -15,7 +15,7 @@ input1.focus();
 function encrypt() {
     
     if (input1.value.length == 0) {
-        document.getElementById('none').innerHTML = '<h2 id="none">Nenhuma mensagem encontrada</h2>';
+        document.getElementById('none').innerHTML = '<h2 id="none">No message found.</h2>';
         input1.focus();
     } else {
         //limpa textarea2 (descriptografar)//
@@ -40,7 +40,7 @@ function encrypt() {
 // função descriptografar o texto inserido pelo usuário se o valor nao for vazio, se for mostra msg
 function decrypt() {
     if (input1.value.length == 0) {
-        document.getElementById('none').innerHTML = ' <h2 id="none">Nenhuma mensagem encontrada</h2>';
+        document.getElementById('none').innerHTML = ' <h2 id="none">No message found.</h2>';
         document.querySelector('img.icone').style.display;
         input1.focus();
     } else {
@@ -72,7 +72,7 @@ function copy() {
     document.querySelector('#txt-area2').select();
     document.execCommand('copy');
     // document.execCommand('cut');
-    message.innerHTML = "O texto copiado já está na área de transferência!";
+    message.innerHTML = "The copied text is already on the clipboard!";
     document.querySelector("#txt-area1").value = "";
     // input1.focus();
     // input2.value = "";
