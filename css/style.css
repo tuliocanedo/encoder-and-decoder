@@ -141,29 +141,7 @@ h3 {
     letter-spacing: 0.05em;
 }
 
-.first-button {
-    background-color:#EFF1FA;
-    color: #0A3871;
-    outline:0; 
-    transition:all .3s ease-out; 
-    box-shadow:inset 0 -4px 0 0 rgb(128, 128, 128),
-    1px 1px 0 0 gray,
-    2px 2px 0 0 gray,
-    3px 3px 0 0 gray,
-    4px 4px 0 0 gray;
-}
-
-.first-button:hover {
-    background-color:#072B61;
-    color: white;
-    filter: drop-shadow(2px 4px 2px #00000025);
-}
-
-.first-button:active{
-    box-shadow: none;
-}
-
-.second-button {
+.first-button,.second-button {
     color: #0A3871;
     background: #EFF1FA;
     transition:all .3s ease-out; 
@@ -174,14 +152,14 @@ h3 {
       4px 4px 0 0 gray;
 }
 
-.first-button:hover {
+.first-button:hover, .second-button:hover {
     color: #0A3871;
     border-color: #0F4C81;
     background: #FFFFFF;
     filter: drop-shadow(2px 4px 2px #00000025); 
 }
 
-.second-button:active {
+.first-button:active,.second-button:active {
     color: #072B61;
     box-shadow: none;
 }
