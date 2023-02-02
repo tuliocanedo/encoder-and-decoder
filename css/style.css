@@ -311,15 +311,17 @@ footer a {
         flex-direction: column;
     }
     
-    .logo {
+    .hp-simbol {
         margin: 40px 0 80px 30px;
     }
-    .logo:hover {
+    .hp-simbol:hover {
         margin: 30px 0 0 20px ;
         animation: expandir 1s;
     }    
     .icone {
-      width: 100%;
+        position: relative;
+        top: -150vw;
+        width: 100%;
     }
 
     .title {
@@ -369,18 +371,13 @@ footer a {
         text-align: center;
     }
 
-    .btn-3 {
-        margin-top: 10px;
-        width: 85vw;
-    }
-
     footer {
         position: relative;
         text-align: center;
         bottom: 0;
     }
 
-    .redes-sociais a img {
+    .social-midia a img {
         width: 40px;
         height: 40px;
         margin: 5px;
@@ -388,7 +385,7 @@ footer a {
         padding: 8px;
     }
 
-    .redes-sociais a:hover {
+    .social-midia a:hover {
     transform: scale(1.5);
     }
 
@@ -399,9 +396,9 @@ footer a {
     body {
         flex-direction: column;
     }
+
     .buttons {
         flex-direction: column;
-        margin: 10px 0 10px 0;
         height: 125px;
     }
 
@@ -410,43 +407,48 @@ footer a {
     }
 
     .icone {
-        width: 50%;
-        margin: -40px;
-
-    }
-    .logo {
-        margin: 30px 0 90px 0;
+        position: relative;
+        width: 95%;
     }
 
-    .logo:hover {
+    .hp-simbol {
+        margin: 30px 0 90px -10px;
+    }
+
+    .hp-simbol:hover {
         margin: 30px 0 0 20px ;
         animation: expandir 1s;
     }
     
     .title {
-        left: 115px;
+        left: 170px;
+        right: 10px;
         top: 35px;
         font-size: 25px;
+        text-align: center;
     }
+
     .main {
-        margin: -40px 20px 60px 20px
+        margin: -30px 10px 40px 10px
     }
+
+    .info {
+        font-size: 35px;
+    }
+
     .main .encrypt .line {
         font-size: 25px;
     }
+
     .encrypt {
-        margin: 45px 27px;
+        margin: 45px 10px;
         padding: 0px;
         width: 100%;
     }
-    #decrypt {
-        margin: 30px 53px 20px;
-        padding: 0;
-        margin-bottom: 15px;
-    }
 
-    .btn-3 {
-        width: 85vw;
+    #decrypt {
+        margin: 15px;
+        padding: 0;
     }
 
     #none {
@@ -457,7 +459,6 @@ footer a {
     #txt-area2 {
         font-size: 16px;
         height: 100px;
-        margin: 0 0 15px;
     }
 
     #txt-area2::placeholder {
