@@ -63,7 +63,7 @@ textarea {
     background-color: white;
     top: 10%;
     width: 80%;
-    height: 82%;
+    height: 70%;
     border-radius: 18px;
     color: #0A3871;
     font-size: 20px;
@@ -187,9 +187,8 @@ h3 {
     border-radius: 32px;
     position: relative;
     bottom: auto;
-    top: 7%;
-    width: 22%;
-    height: 80%;
+    width: 75%;
+    height: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -200,7 +199,7 @@ h3 {
 }
 
 .icone {
-    width: 100%;
+    width: 105%;
     border-radius: 18px;
 }
 
@@ -405,6 +404,9 @@ footer a {
 
     .icone {
         position: relative;
+        top: 50px;
+        padding: 0%;
+        margin: 0%;
         width: 95%;
     }
 
@@ -426,7 +428,7 @@ footer a {
     }
 
     .main {
-        margin: -30px 10px 40px 10px
+        margin: -30px 5px 40px 10px
     }
 
     .info {
@@ -438,14 +440,13 @@ footer a {
     }
 
     .encrypt {
-        margin: 45px 10px;
-        padding: 0px;
-        width: 100%;
+        padding: 5px;
+        width: 90%;
     }
 
     #decrypt {
-        margin: 15px;
-        padding: 0;
+        margin-left: 15px;
+        padding: 15px;
     }
 
     #none {
@@ -455,7 +456,8 @@ footer a {
 
     #txt-area2 {
         font-size: 16px;
-        height: 100px;
+        width: 70%;
+        height: 90px;
     }
 
     #txt-area2::placeholder {
