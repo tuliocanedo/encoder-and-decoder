@@ -311,6 +311,7 @@ footer a {
 @media (max-width: 768px) /*Tablet*/ {
     body {
         flex-direction: column;
+        width: 375px;
     }
     
     .hp-simbol {
@@ -406,8 +407,8 @@ footer a {
 
     .buttons {
         flex-direction: column;
-        margin: 10px 0 10px 0;
-        width: 375px;
+        margin: 10px 0 10px 10px;
+        width: 300px;
         height: 125px;
     }
 
@@ -417,8 +418,8 @@ footer a {
 
     .icone {
         width: 50%;
-        margin: -40px;
-
+        padding-top: 50px;
+        margin: -50px;
     }
 
     .hp-simbol {
@@ -431,30 +432,28 @@ footer a {
     }
     
     .title {
+        width: 180px;
         text-align: center;
-        left: 115px;
-        top: 35px;
+        left: 170px;
+        top: 45px;
         font-size: 25px;
     }
 
     .main {
-        margin: -40px 20px 60px 20px
-    }
-    
-    .main .encrypt .line {
-        font-size: 25px;
+        margin: -40px 0 0 20px;
+        padding: 0;
+        height: 300px;
     }
 
     .encrypt {
-        margin: 45px 27px;
         padding: 0px;
-        width: 100%;
+        width: 340px;
     }
 
     #decrypt {
-        margin: 30px 53px 20px;
-        padding: 0;
-        margin-bottom: 15px;
+        padding: 0px;
+        width: 350px;
+        margin-left: 10px;
     }
 
     .btn-3 {
@@ -466,9 +465,18 @@ footer a {
         margin: 0px 0 0px;
     }
 
+    #txt-area1 {
+        font-size: 25px;
+        height: 180px;
+        width: 150px;
+        margin: 0;
+        color:#000000;
+    }
+
     #txt-area2 {
         font-size: 16px;
-        height: 100px;
+        height: 180px;
+        width: 300px;
         margin: 0 0 15px;
     }
 
@@ -476,11 +484,11 @@ footer a {
         font-size: 18px;
     }
     
-    footer {
-        width: 375px;
+    .social-midia {
         text-align: center;
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-end;
+        width: 375px;
     }
 }
