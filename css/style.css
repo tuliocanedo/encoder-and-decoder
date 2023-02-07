@@ -401,11 +401,13 @@ footer a {
     
     body {
         flex-direction: column;
+        width: 375px;
     }
 
     .buttons {
         flex-direction: column;
         margin: 10px 0 10px 0;
+        width: 375px;
         height: 125px;
     }
 
@@ -475,6 +477,7 @@ footer a {
     }
     
     footer {
+        width: 375px;
         text-align: center;
         flex-direction: column;
         justify-content: space-between;
