@@ -50,11 +50,13 @@ textarea {
 #txt-area1 {
     align-items: center;
     vertical-align: top;
-    padding-left: 15px;  
+    padding-left: 15px;
+    width: auto;  
 }
 
 #txt-area1::placeholder {
     color: white;
+    width: auto;
 }
 
 .text-animation {
@@ -363,11 +365,31 @@ footer a {
         font-size: 25px;
         margin: 20px 0 20px;
     }
+
+    #txt-area1 {
+        font-size: 25px;
+        height: 180px;
+        width: 160px;
+        margin: 0;
+        color:#000000;
+    }
+
+    #txt-area1::placeholder {
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .text-animation {
+        animation: cursor 500ms infinite normal, texto 3s steps(40) 1s normal both;
+    }
+
     #txt-area2 {
         font-size: 20px;
         text-align: center;
         height: 20vh;
     }
+
     #txt-area2::placeholder {
         font-size: 20px;
         text-align: center;
@@ -446,7 +468,8 @@ footer a {
     }
 
     .encrypt {
-        padding: 0px;
+        padding: 0;
+        margin-left: 0;
         width: 340px;
     }
 
@@ -466,11 +489,13 @@ footer a {
     }
 
     #txt-area1 {
-        font-size: 25px;
-        height: 180px;
-        width: 150px;
-        margin: 0;
-        color:#000000;
+        font-size: 25px; 
+        width: 200px;
+    }
+    
+    .text-animation {
+        animation: cursor 500ms infinite normal, texto 3s steps(40) 1s normal both;
+        transform: translateX(0);
     }
 
     #txt-area2 {
@@ -483,8 +508,10 @@ footer a {
     #txt-area2::placeholder {
         font-size: 18px;
     }
-    
+
     .social-midia {
+        background:beige;
+        color:goldenrod;
         text-align: center;
         flex-direction: column;
         justify-content: space-between;
