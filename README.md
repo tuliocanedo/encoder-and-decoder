@@ -1,3 +1,3 @@
 # encoder-and-decoder
 
-Encoder and decoder words.
+Encode and decode words.
