@@ -519,5 +519,6 @@ footer a {
         justify-content: space-between;
         align-items: flex-end;
         width: auto;
+        padding-bottom: 10px;
     }
 }
