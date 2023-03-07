@@ -37,8 +37,8 @@ I'm able to:
 
 ### Links
 
-- [Repository Encoder and Decoder]([https://github.com/tuliocanedo/TecBlog](https://github.com/tuliocanedo/encoder-and-decoder))
-- [Deploy Encoder and Decoder]([https://tec-blog-bekea2k8j-tuliocanedo.vercel.app/](https://encoder-and-decoder-8jkbztz3p-tuliocanedo.vercel.app/))
+- [Repository Encoder and Decoder](https://github.com/tuliocanedo/encoder-and-decoder)
+- [Deploy Encoder and Decoder](https://encoder-and-decoder-8jkbztz3p-tuliocanedo.vercel.app/)
 
 ## My process
 
