@@ -1,4 +1,4 @@
-# encoder-and-decoder
+# Encoder and Decoder
 
 ## Table of contents
 
